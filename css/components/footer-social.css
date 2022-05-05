@@ -1,0 +1,24 @@
+.footer-social{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-inline {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 30px;
+  color: #A5A299;
+}
+.list-inline i:hover {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  transition: 0.5s;
+}

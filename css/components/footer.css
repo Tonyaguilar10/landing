@@ -1,0 +1,10 @@
+.footer{
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+.footer>.container>h2{
+  color: #A5A299;
+  text-align: center;
+}

@@ -1,0 +1,45 @@
+.btn-grey{
+  background-color: #A5A299;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 30 0px;
+}
+.btn-grey:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+  padding: 2% 2.5%;
+}
+.btn-grey::after {
+  font-family: 'Ubuntu', sans-serif;
+  content: 'Click for memes';
+}
+
+.btn-grey:hover::after{
+  font-family: 'Ubuntu', sans-serif;
+  content: 'or p*rn 😏';
+}
+
+.btn-grey-video{
+  background-color: #A5A299;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 30px 10px;
+  transition: 0.5s;
+}
+.btn-grey-video:hover {
+  background-color: black;
+  color: white;
+  padding: 2% 2.5%;
+}
+.btn-grey-video::after {
+  font-family: 'Ubuntu', sans-serif;
+  content: 'Do not click me';
+}
+
+.btn-grey-video:hover::after{
+  font-family: 'Ubuntu', sans-serif;
+  content: 'You know you want it';
+}
